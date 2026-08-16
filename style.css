@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+:root{
+    --cor1: #1477DE;
+    --cor2: #14B5DE;
+    --cor3: #1436DE;
+    --cor4: #14DEC5;
+    --cor5: #3314DE;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+main{
+    background-color: white;
+    display: block;
+    border-style: double;
+    border-color: var(--cor4);
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+    max-width: 50vw;
+    max-height: 80vh;
+    
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+main h1{
+
+    padding: 20px;
+    color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+main form fieldset, input, select, button{
+
+    align-items: center;
+    padding: 5px;
+    display: block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    width: 70%;
+    
+    
+}
